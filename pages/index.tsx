@@ -42,7 +42,7 @@ function HomePage() {
         </Heading>
         <Text color={"gray.500"} maxW={"3xl"}>
           Cheq is a decentralized payments protocol for reversible, tradable
-          transactions that powers deNota.
+          transactions.
         </Text>
         <Stack spacing={6} direction={"row"}>
           <Button px={6}>Contact us</Button>
