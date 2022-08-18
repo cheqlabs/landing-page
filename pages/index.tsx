@@ -8,8 +8,8 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import Image from "next/image";
-import lightLogo from "../public/cheq light logo chakra.png";
-import darkLogo from "../public/cheq dark logo chakra.png";
+import lightLogo from "../public/cheq light logo.png";
+import darkLogo from "../public/cheq dark logo.png";
 import ToggleColorMode from "./components/ToggleColorMode";
 
 function HomePage() {
