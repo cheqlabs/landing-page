@@ -1,4 +1,4 @@
-import { Box, Link } from '@chakra-ui/core';
+import { Box } from '@chakra-ui/react';
 
 export default function Layout(props: any) {
   return (
