@@ -45,8 +45,7 @@ function HomePage() {
           Cheq Protocol
         </Heading>
         <Text color={"gray.500"} maxW={"3xl"}>
-          Cheq is a decentralized payments protocol for reversible, tradable
-          transactions.
+          Cheq is a decentralized payments protocol for reversible transactions.
         </Text>
         <Stack spacing={6} direction={"row"}>
           <a href="https://i79gnn9znxh.typeform.com/to/OKgJRbkY">
