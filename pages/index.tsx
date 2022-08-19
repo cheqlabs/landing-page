@@ -45,7 +45,9 @@ function HomePage() {
           transactions.
         </Text>
         <Stack spacing={6} direction={"row"}>
+          <a href="https://i79gnn9znxh.typeform.com/to/OKgJRbkY">
           <Button px={6}>Contact us</Button>
+          </a>
         </Stack>
         <Flex w={"full"}></Flex>
       </Stack>
