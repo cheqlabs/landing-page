@@ -13,3 +13,5 @@ Updating the `"baseUrl"` in `tsconfig.json` didn't work.
 [Optimal folder structure, Next.js](https://stackoverflow.com/questions/53854104/is-this-next-js-folder-structure-recommended)
 
 [TS/next.js .gitignore](https://github.com/jpedroschmitz/typescript-nextjs-starter/blob/main/.gitignore)
+
+[Favicon Issue Next.js](https://stackoverflow.com/questions/61836949/why-is-my-favicon-not-working-in-my-next-js-app)

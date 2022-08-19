@@ -5,6 +5,11 @@ const config: ThemeConfig = {
   useSystemColorMode: false,
 } 
 
-const customTheme = extendTheme({ config });
+const fonts = {
+  heading: "'DM Sans', sans-serif",
+  body: "'DM Sans', sans-serif",
+}
+
+const customTheme = extendTheme({ config, fonts });
 
 export default customTheme;

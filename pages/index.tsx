@@ -7,10 +7,14 @@ import {
   Button,
   useColorMode,
 } from "@chakra-ui/react";
+
 import Image from "next/image";
+
 import lightLogo from "../public/cheq light logo.png";
 import darkLogo from "../public/cheq dark logo.png";
+
 import ToggleColorMode from "./components/ToggleColorMode";
+import Footer from "./components/Footer";
 
 function HomePage() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -46,7 +50,7 @@ function HomePage() {
         </Text>
         <Stack spacing={6} direction={"row"}>
           <a href="https://i79gnn9znxh.typeform.com/to/OKgJRbkY">
-          <Button px={6}>Contact us</Button>
+            <Button px={6}>Contact us</Button>
           </a>
         </Stack>
         <Flex w={"full"}></Flex>
