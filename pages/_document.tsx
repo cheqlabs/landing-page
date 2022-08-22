@@ -24,7 +24,6 @@ export default function Document() {
           href="/images/favicon-16x16.png"
         />
         <link rel="shortcut icon" href="/images/favicon.ico" />
-        <title>Cheq Labs</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

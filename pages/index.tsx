@@ -9,17 +9,20 @@ import {
 } from "@chakra-ui/react";
 
 import Image from "next/image";
+import Head from "next/head";
 
 import lightLogo from "../public/cheq light logo.png";
 import darkLogo from "../public/cheq dark logo.png";
 
 import ToggleColorMode from "./components/ToggleColorMode";
-import Footer from "./components/Footer";
 
 function HomePage() {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
   return (
     <Container maxW={"5xl"}>
+      <Head>
+        <title>Cheq Labs</title>
+      </Head>
       <ToggleColorMode />
       <Stack
         textAlign={"center"}
